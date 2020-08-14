@@ -25,8 +25,6 @@ def get_session(gpu_fraction=0.80):
 
 tf.compat.v1.keras.backend.set_session(get_session())
 
-GENE_POOL = [0, 1]
-
 
 def getmasks(net):
     masks = []
